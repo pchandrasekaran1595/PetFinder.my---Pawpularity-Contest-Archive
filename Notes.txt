@@ -1,0 +1,25 @@
+1. PetFinder - Dataset Creation 
+    Latest - Version 1
+
+2. Pytorch Dataloader Analysis 
+    Latest - Version 3
+
+3. PetFinder - Meta Analysis (XGB)
+    Latest - Version 2
+
+4. PetFinder - Images (Baseline)(Train) 
+    Latest - Version 2
+
+5. PetFinder - Images (Baseline)(Densenet Inference) 
+    Latest - Version 4
+    Submitted - Version 1
+
+6. PetFinder - Images (Baseline)(Stacked Inference) 
+    Latest - Version 1
+    Submitted - Version 1
+
+7. PetFinder - Pretrained Features
+    Latest - Version 1
+
+8. PetFinder - PetFinder - Meta Analysis (DL) (1 HL)
+    Latest - Version 6 (Working on 7)
