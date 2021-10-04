@@ -1,0 +1,1 @@
+Repository containing notebooks and scripts for the [PetFinder.my - Pawpularity Contest](https://www.kaggle.com/c/petfinder-pawpularity-score/overview) kaggle competition.
