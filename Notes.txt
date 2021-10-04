@@ -23,3 +23,6 @@
 
 8. PetFinder - PetFinder - Meta Analysis (DL) (1 HL)
     Latest - Version 6 (Working on 7)
+
+9. PetFinder - Images and Meta Ensemble
+    Latest - Version 1
