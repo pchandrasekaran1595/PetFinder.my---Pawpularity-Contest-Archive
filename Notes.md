@@ -41,11 +41,11 @@
 
 5. Densenet (Train) (10FCV) (Latest: V2)
 
-6. Resnet (Train) (10FCV) (Latest: V4)
+6. Resnet (Train) (Latest: V4)
 
-7. Mobilenet (Train) (10FCV) (Latest: V4)
+7. Mobilenet (Train) (Latest: V4)
 
-8. VGG (Train) (10FCV) (Latest: V2)
+8. VGG (Train) (Latest: V2)
 </pre>
 
 &nbsp;
@@ -66,8 +66,12 @@
 5. VGG (Inference) (Latest: V1)
    BestCV, AvgCV, LB = 17.58885 (F3), 18.80410, _
 
-6. Stacked (Inference) (Latest: V1)
+6. Stacked Inference (Latest: V1)
    BestCV, AvgCV, LB = 17.41826, 18.665005, _
+
+7. Stacked Inference - Best (Latest: V1)
+   Only Use the Best Models
+   AvgCV, LB = 17.41826, _
 </pre>
 
 ---
