@@ -1,7 +1,14 @@
 ## Notebook Information
 
-1. Dataset Creation  
-Latest - Version 1
+1. 
+    1. Dataset Creation  
+       Latest - Version 1
+    
+    2. Grayscale Dataset Creation  
+       Latest - Version 2
+    
+    3. Color Dataset Creation  
+       Latest - Version 3
 
 2. Pytorch Dataloader Analysis  
 Latest - Version 3
@@ -40,6 +47,12 @@ Latest - Version 5
 
 13. Densenet BS Analysis  
 Latest - Version 4
+
+14. Densenet (Train) (5FCV)  
+Latest - Version 1
+
+15. Densenet (Train) (10FCV)  
+Latest - Version 1
 
 ---
 
