@@ -1,63 +1,69 @@
-## Notebook Information
+## **Notebook Information**
 
+### **Analysis**
+<pre>
 1. 
-    1. Dataset Creation  
-       Latest - Version 1
-    
-    2. Grayscale Dataset Creation  
-       Latest - Version 2
-    
-    3. Color Dataset Creation  
-       Latest - Version 3
+    a. Dataset Creation (Latest: V1)
+    b. Grayscale Dataset Creation (Latest: V2)
+    c. Color Dataset Creation (Latest: V3)
+   
+2. Pretrained Features (Latest: V1)
 
-2. Pytorch Dataloader Analysis  
-Latest - Version 3
+3. Pytorch Dataloader Analysis (Latest: V3)
 
-3. Meta Analysis (XGB)  
-Latest - Version 2
+4. Meta Analysis (XGB) (Latest: V2)
 
-4. Images (Baseline)(Train)  
-Latest - Version 2
+5. Meta Analysis (DL) (1 HL)  (Latest: V7 [Fail])
 
-5. Images (Baseline)(Densenet Inference)  
-Latest - Version 4  
-Submitted - Version 1
+6. Densenet Analysis (Latest: V5)
 
-6. Images (Baseline)(Stacked Inference)  
-Latest - Version 1  
-Submitted - Version 1
+7. Densenet BS Analysis (Latest: V4)
 
-7. Pretrained Features  
-Latest - Version 1
+8. Image Features (Fold and HL Analysis) (Latest: V4)
+</pre>
 
-8. Meta Analysis (DL) (1 HL)  
-Latest - Version 6 (Working on 7)
+---
 
-9. Images and Meta Ensemble  
-Latest - Version 1
+### **Train**
+<pre>
+1. Images (Baseline)(Train) (Latest: V2)
 
-10. Image Features (Fold and HL Analysis)  
-Latest - Version 4
+2. Images (Baseline)(Densenet Inference)  
+   Latest: V4  
+   Submitted: V1
 
-11. Pretrained Features  
-Latest - Version 1
+3. Images (Baseline)(Stacked Inference)  
+   Latest - V1  
+   Submitted - V1
 
-12. Densenet Analysis  
-Latest - Version 5
+4. Densenet (Train) (5FCV) (Latest: V1)
+   Validation RMSE calculated before transformation
 
-13. Densenet BS Analysis  
-Latest - Version 4
+5. Densenet (Train) (10FCV) (Latest: V2)
 
-14. Densenet (Train) (5FCV)  
-Latest - Version 1  
-Validation RMSE calculated before transformation
+6. Resnet (Train) (10FCV) (Latest: V4)
 
-15. Densenet (Train) (10FCV)  
-Latest - Version 1  
-Validation RMSE calculated before transformation
+7. Mobilenet (Train) (10FCV) (Latest: V3)
 
-16. Densenet (Inference)
-Latest - Version 2
+8. VGG (Train) (10FCV) (Latest: V2)
+</pre>
+
+---
+
+&nbsp;
+
+---
+
+1. Images and Meta Ensemble (Latest: V1)
+
+2. Densenet (Inference) (Latest: V2)
+   5FCV  
+      BestCV, AvgCV, LB = _, 18.39642
+   10FCV
+      BestCV, AvgCV, LB = _, 18.38553  
+Uses V1 Densenet (Train) (10FCV)
+
+</pre>
 
 ---
 
