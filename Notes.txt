@@ -28,4 +28,4 @@
     Latest - Version 1
 
 10. Image Features (Fold and HL Analysis)
-    Latest - Version 3
+    Latest - Version 4
