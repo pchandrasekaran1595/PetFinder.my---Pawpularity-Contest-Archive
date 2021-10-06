@@ -49,10 +49,12 @@ Latest - Version 5
 Latest - Version 4
 
 14. Densenet (Train) (5FCV)  
-Latest - Version 1
+Latest - Version 1  
+Validation RMSE calculated before transformation
 
 15. Densenet (Train) (10FCV)  
-Latest - Version 1
+Latest - Version 1  
+Validation RMSE calculated before transformation
 
 16. Densenet (Inference)
 Latest - Version 2
