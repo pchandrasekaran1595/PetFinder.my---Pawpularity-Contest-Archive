@@ -54,6 +54,9 @@ Latest - Version 1
 15. Densenet (Train) (10FCV)  
 Latest - Version 1
 
+16. Densenet (Inference)
+Latest - Version 2
+
 ---
 
 &nbsp;
