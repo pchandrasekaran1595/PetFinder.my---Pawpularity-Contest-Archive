@@ -43,7 +43,7 @@
 
 6. Resnet (Train) (10FCV) (Latest: V4)
 
-7. Mobilenet (Train) (10FCV) (Latest: V3)
+7. Mobilenet (Train) (10FCV) (Latest: V4)
 
 8. VGG (Train) (10FCV) (Latest: V2)
 </pre>
@@ -56,12 +56,17 @@
 
 1. Images and Meta Ensemble (Latest: V1)
 
-2. Densenet (Inference) (Latest: V2)
-   5FCV  
-      BestCV, AvgCV, LB = _, 18.39642
-   10FCV
-      BestCV, AvgCV, LB = _, 18.38553  
-Uses V1 Densenet (Train) (10FCV)
+2. Densenet (Inference) (Latest: V2) [Uses V1 Densenet (Train) (10FCV)]
+   BestCV, AvgCV, LB = 17.20356 (F3), 18.48411, 18.38553  
+
+3. Resnet (Inference) (Latest: V1)
+   BestCV, AvgCV, LB = 17.19295 (F3), 18.56848, _
+
+4. Mobilenet (Inference) (Latest: V1)
+   BestCV, AvgCV, LB = 17.68768 (F3), 18.80634, _
+
+5. VGG (Inference) (Latest: V1)
+   BestCV, AvgCV, LB = 17.58885 (F3), 18.80410, _
 
 </pre>
 
