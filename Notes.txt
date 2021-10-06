@@ -29,3 +29,18 @@
 
 10. Image Features (Fold and HL Analysis)
     Latest - Version 4
+
+11. Pretrained Features
+    Latest - Version 1
+
+12. Densenet Analysis
+    Latest - Version 3
+
+
+Most Optimal Model so far (Unaugmented Data with 5-Fold CV):
+    Backbone - Densenet
+    LR = 1e-3
+    WD = 1e-3
+    HL = []
+    BS = ??
+    SEED = ??
