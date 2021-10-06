@@ -22,7 +22,7 @@
 8. Image Features (Fold and HL Analysis) (Latest: V4)
 </pre>
 
----
+&nbsp;
 
 ### **Train**
 <pre>
@@ -48,12 +48,10 @@
 8. VGG (Train) (10FCV) (Latest: V2)
 </pre>
 
----
-
 &nbsp;
 
----
-
+### **Inference**
+<pre>
 1. Images and Meta Ensemble (Latest: V1)
 
 2. Densenet (Inference) (Latest: V2) [Uses V1 Densenet (Train) (10FCV)]
@@ -68,13 +66,15 @@
 5. VGG (Inference) (Latest: V1)
    BestCV, AvgCV, LB = 17.58885 (F3), 18.80410, _
 
+6. Stacked (Inference) (Latest: V1)
+   BestCV, AvgCV, LB = 17.41826, 18.665005, _
 </pre>
 
 ---
 
 &nbsp;
 
-## Most Optimal Model so far (Unaugmented Data):
+## **Most Optimal Model so far (Unaugmented Data)**
 <pre>
     Backbone : Densenet
     LR       : 1e-2(10), 1e-3(5)
