@@ -5,7 +5,7 @@ import utils as u
 
 #####################################################################################################
 
-def find():
+def calculate():
     PATH = "C:/Users/Ourself/Desktop/Repos/PetFinder/Misc"
     name = None
 
@@ -22,9 +22,8 @@ def find():
     RMSE = []
     for i in range(len(params)):
         RMSE.append(params[i]["RMSE"])
-    
-    index = RMSE.index(min(RMSE))
 
-    print("{}, Best RMSE    : {}".format(model_name[0], params[index]))
+    print("{}, Average RMSE : {:.5f}".format(model_name[0], sum(RMSE) / len(RMSE)))
+
 
 #####################################################################################################
