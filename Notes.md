@@ -58,6 +58,9 @@
    {'Fold': 9,  'RMSE': 17.793830771697124}
    {'Fold': 10, 'RMSE': 18.452296426408655}
 
+   BestCV = 17.20356 (F3)
+   AvgCV  = 18.48411
+
 
 6. Resnet (Train) (Latest: V4)
    {'Fold': 1,  'RMSE': 18.396494132423992}
@@ -70,6 +73,9 @@
    {'Fold': 8,  'RMSE': 18.756417600707913}
    {'Fold': 9,  'RMSE': 18.00501797435925}
    {'Fold': 10, 'RMSE': 18.75005079403802}
+
+   BestCV = 17.19295 (F3)
+   AvgCV  = 18.56848
 
 
 7. Mobilenet (Train) (Latest: V4)
@@ -84,6 +90,9 @@
    {'Fold': 9,  'RMSE': 18.071784272751003}
    {'Fold': 10, 'RMSE': 18.584009988630445}
 
+   BestCV = 17.68768 (F3)
+   AvgCV  = 18.80634
+
 
 8. VGG (Train) (Latest: V2)
    {'Fold': 1,  'RMSE': 18.466018161395}
@@ -96,6 +105,9 @@
    {'Fold': 8,  'RMSE': 19.205218313610448}
    {'Fold': 9,  'RMSE': 18.216399230286488}
    {'Fold': 10, 'RMSE': 18.814584033794514}
+
+   BestCV = 17.58885 (F3)
+   AvgCV  = 18.80410
 
 
 9. Dense + Meta (No Norm, Train) (Latest: V2)
@@ -110,6 +122,9 @@
    {'Fold': 9,  'RMSE': 17.835846618964375}
    {'Fold': 10, 'RMSE': 18.51920404423652}
 
+   BestCV = 17.22557(F3) 
+   AvgCV  = 18.48170
+
 
 10. Dense + Meta (Norm, Train) (Latest: V2)
    {'Fold': 1, 'RMSE': 18.03942124469386}
@@ -123,6 +138,9 @@
    {'Fold': 9, 'RMSE': 17.974863667610098}
    {'Fold': 10, 'RMSE': 18.840179066757013}
 
+   BestCV = 17.30660(F3) 
+   AvgCV  = 18.63520
+
 </pre>
 
 &nbsp;
@@ -134,47 +152,42 @@
 
 
 2. Densenet (Inference) (Latest: V2) [Uses V1 Densenet (Train) (10FCV)]
-   BestCV, AvgCV, LB = 17.20356 (F3), 18.48411, 18.38553  
+   LB = 18.38553  
    Diff(BestCV - LB) = 1.18197
    Diff(AvgCV - LB)  = 0.09858
 
 
 3. Resnet (Inference) (Latest: V1)
-   BestCV, AvgCV, LB = 17.19295 (F3), 18.56848, _
+   LB = _
    Diff(BestCV - LB) = _
    Diff(AvgCV - LB)  = _
 
 
 4. Mobilenet (Inference) (Latest: V1)
-   BestCV, AvgCV, LB = 17.68768 (F3), 18.80634, _
+   LB = _
    Diff(BestCV - LB) = _
    Diff(AvgCV - LB)  = _
 
 
 5. VGG (Inference) (Latest: V1)
-   BestCV, AvgCV, LB = 17.58885 (F3), 18.80410, _
+   LB = _
    Diff(BestCV - LB) = _
    Diff(AvgCV - LB)  = _
 
 
 6. Stacked Inference (Latest: V2)
-   BestCV, AvgCV, LB = 17.41826 (F3), 18.665005, 18.45663
+   BestCV = 17.41826 (F3) 
+   AvgCV  = 18.665005
+   LB     = 18.45663
    Diff(BestCV - LB) = 1.03837
    Diff(AvgCV - LB)  = 0.208375
 
 
 7. Stacked Inference - Best (Latest: V2)
    Only Use the Best Models
-   AvgCV, LB = 17.41826, 18.47799
+   AvgCV = 17.41826
+   LB    = 18.47799
    Diff(AvgCV - LB)  = 1.05973
-
-
-8. Dense + Meta (No Norm) (Latest: N/A)
-   BestCV, AvgCV, LB = 17.22557(F3), 18.48170, _
-
-
-9. Dense + Meta (Norm) (Latest: N/A)
-   BestCV, AvgCV, LB = 17.30660(F3), 18.63520, _
 
 </pre>
 
