@@ -169,11 +169,11 @@
    Diff(AvgCV - LB)  = 1.05973
 
 
-8. Dense + Meta (No Norm)
+8. Dense + Meta (No Norm) (Latest: N/A)
    BestCV, AvgCV, LB = 17.22557(F3), 18.48170, _
 
 
-9. Dense + Meta (Norm)
+9. Dense + Meta (Norm) (Latest: N/A)
    BestCV, AvgCV, LB = 17.30660(F3), 18.63520, _
 
 </pre>
@@ -192,7 +192,7 @@
     HL       : []
     BS       : 32
     SEED     : ??
-    
+
 </pre>
 
 &nbsp;
