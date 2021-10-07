@@ -22,6 +22,12 @@
 
 8. Image Features (Fold and HL Analysis) (Latest: V4)
 
+9. Pretrained Features (All) (Latest: V2)
+
+10. Pretrained Model Weights (Latest: V1)
+
+11. Pretrained Model Weights (All) (Latest: V1)
+
 </pre>
 
 &nbsp;
@@ -141,6 +147,13 @@
    BestCV = 17.30660(F3) 
    AvgCV  = 18.63520
 
+
+11. PetFinder - Gray384 - Dense Full (Colab)
+   Batch Size = 20
+   10 Minutes per Epoch
+   Ran in Debug Mode (Epochs = 5, Folds = 3)
+   Perform a Full Run
+
 </pre>
 
 &nbsp;
@@ -209,5 +222,12 @@
 </pre>
 
 &nbsp;
+
+---
+
+&nbsp;
+
+Kaggle torch Version       - 1.7.1
+Kaggle torchvision Version - 0.8.1
 
 ---
