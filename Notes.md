@@ -97,6 +97,32 @@
    {'Fold': 9,  'RMSE': 18.216399230286488}
    {'Fold': 10, 'RMSE': 18.814584033794514}
 
+
+9. Dense + Meta (No Norm, Train) (Latest: V2)
+   {'Fold': 1,  'RMSE': 17.974186124819028}
+   {'Fold': 2,  'RMSE': 19.18652026337317}
+   {'Fold': 3,  'RMSE': 17.225570687794686}
+   {'Fold': 4,  'RMSE': 18.245223493824614}
+   {'Fold': 5,  'RMSE': 19.00355821277801}
+   {'Fold': 6,  'RMSE': 18.640010493520407}
+   {'Fold': 7,  'RMSE': 19.3356389608441}
+   {'Fold': 8,  'RMSE': 18.85120496768312}
+   {'Fold': 9,  'RMSE': 17.835846618964375}
+   {'Fold': 10, 'RMSE': 18.51920404423652}
+
+
+10. Dense + Meta (Norm, Train) (Latest: V2)
+   {'Fold': 1, 'RMSE': 18.03942124469386}
+   {'Fold': 2, 'RMSE': 19.498367490288718}
+   {'Fold': 3, 'RMSE': 17.306601077811937}
+   {'Fold': 4, 'RMSE': 18.423025342397192}
+   {'Fold': 5, 'RMSE': 19.072061828421518}
+   {'Fold': 6, 'RMSE': 18.73027646546086}
+   {'Fold': 7, 'RMSE': 19.47167450216092}
+   {'Fold': 8, 'RMSE': 18.995501600951666}
+   {'Fold': 9, 'RMSE': 17.974863667610098}
+   {'Fold': 10, 'RMSE': 18.840179066757013}
+
 </pre>
 
 &nbsp;
@@ -142,6 +168,14 @@
    AvgCV, LB = 17.41826, 18.47799
    Diff(AvgCV - LB)  = 1.05973
 
+
+8. Dense + Meta (No Norm)
+   BestCV, AvgCV, LB = 17.22557(F3), 18.48170, _
+
+
+9. Dense + Meta (Norm)
+   BestCV, AvgCV, LB = 17.30660(F3), 18.63520, _
+
 </pre>
 
 ---
@@ -150,6 +184,7 @@
 
 ## **Most Optimal Model so far (Unaugmented Data)**
 <pre>
+
     Backbone : Densenet
     KFold    : 10
     LR       : 1e-2(10), 1e-3(5)
@@ -157,6 +192,7 @@
     HL       : []
     BS       : 32
     SEED     : ??
+    
 </pre>
 
 &nbsp;
