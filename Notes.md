@@ -66,12 +66,12 @@
 5. VGG (Inference) (Latest: V1)
    BestCV, AvgCV, LB = 17.58885 (F3), 18.80410, _
 
-6. Stacked Inference (Latest: V1)
-   BestCV, AvgCV, LB = 17.41826, 18.665005, _
+6. Stacked Inference (Latest: V2)
+   BestCV, AvgCV, LB = 17.41826 (F3), 18.665005, 18.45663
 
-7. Stacked Inference - Best (Latest: V1)
+7. Stacked Inference - Best (Latest: V2)
    Only Use the Best Models
-   AvgCV, LB = 17.41826, _
+   AvgCV, LB = 17.41826, 18.47799
 </pre>
 
 ---
