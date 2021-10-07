@@ -81,6 +81,7 @@
 ## **Most Optimal Model so far (Unaugmented Data)**
 <pre>
     Backbone : Densenet
+    KFold    : 10
     LR       : 1e-2(10), 1e-3(5)
     WD       : 0.0(10), 1e-3(5)
     HL       : []
