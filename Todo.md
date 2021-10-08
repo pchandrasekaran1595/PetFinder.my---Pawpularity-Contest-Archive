@@ -11,4 +11,10 @@
 
 5. Analyze metadata; check CV for different ANN and ML architectures.
  
-6. Use the best models obtained from `1.`; submit and check LB
+6. [**Completed**] ~~Use the best models obtained from `1.`; submit and check LB.~~
+
+7. [**Completed**] ~~Create Augmented Features for different seeds.~~
+
+8. Perform 10 Fold CV on augmented features.
+
+9. Create Augmented Features for different seeds for all the models.
