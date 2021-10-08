@@ -55,6 +55,70 @@
    Best Model (BestCV) -> Densenet121
    Best Model (AvgCV)  -> Densenet161
 
+
+11. Augmented Features CV Analysis (Colab)
+
+   ------------------------------------------------------------
+   Model: Densenet, BestCV: 18.00383 (F3, S33), AvgCV: 19.56775
+   Model: Densenet, BestCV: 18.58269 (F3, S38), AvgCV: 19.93007
+   Model: Densenet, BestCV: 17.56233 (F3, S49), AvgCV: 19.07615
+   Model: Densenet, BestCV: 17.91412 (F3, S5) , AvgCV: 19.41350 
+   Model: Densenet, BestCV: 18.31756 (F3, S51), AvgCV: 19.83152
+   Model: Densenet, BestCV: 17.96301 (F3, S53), AvgCV: 19.37750
+   Model: Densenet, BestCV: 18.39538 (F3, S61), AvgCV: 19.95182
+   Model: Densenet, BestCV: 18.05967 (F3, S62), AvgCV: 19.71465
+   Model: Densenet, BestCV: 18.05538 (F3, S65), AvgCV: 19.62465
+   Model: Densenet, BestCV: 17.72818 (F3, S97), AvgCV: 19.24826
+
+   Best Model (BestCV) -> Seed 49 Augment (17.56223)
+   Best Model (AvgCV)  -> Seed 49 Augment (19.07615)
+   ------------------------------------------------------------
+   Model: Resnet  , BestCV: 18.15734 (F3, S33), AvgCV: 19.64033
+   Model: Resnet  , BestCV: 18.72690 (F3, S38), AvgCV: 19.97403
+   Model: Resnet  , BestCV: 17.84416 (F3, S49), AvgCV: 19.21140
+   Model: Resnet  , BestCV: 17.97836 (F3, S5) , AvgCV: 19.47597
+   Model: Resnet  , BestCV: 18.55108 (F3, S51), AvgCV: 19.89083
+   Model: Resnet  , BestCV: 17.98777 (F3, S53), AvgCV: 19.38085
+   Model: Resnet  , BestCV: 18.67789 (F3, S61), AvgCV: 20.03207
+   Model: Resnet  , BestCV: 18.34269 (F3, S62), AvgCV: 19.82179
+   Model: Resnet  , BestCV: 18.38207 (F3, S65), AvgCV: 19.78543
+   Model: Resnet  , BestCV: 17.81187 (F3, S97), AvgCV: 19.33407
+
+   Best Model (BestCV) -> Seed 97 Augment (17.81187)
+   Best Model (AvgCV)  -> Seed 49 Augment (19.21140)
+   ------------------------------------------------------------
+   Model: Vgg     , BestCV: 18.47876 (F3, S33), AvgCV: 19.81500
+   Model: Vgg     , BestCV: 18.83131 (F3, S38), AvgCV: 20.09474
+   Model: Vgg     , BestCV: 18.03871 (F3, S49), AvgCV: 19.38239
+   Model: Vgg     , BestCV: 18.26708 (F3, S5) , AvgCV: 19.70080
+   Model: Vgg     , BestCV: 18.61832 (F3, S51), AvgCV: 20.04709
+   Model: Vgg     , BestCV: 18.31016 (F3, S53), AvgCV: 19.59170
+   Model: Vgg     , BestCV: 18.79034 (F3, S61), AvgCV: 20.14066
+   Model: Vgg     , BestCV: 18.75636 (F3, S62), AvgCV: 19.95986
+   Model: Vgg     , BestCV: 18.34278 (F3, S65), AvgCV: 19.76804
+   Model: Vgg     , BestCV: 18.10266 (F3, S97), AvgCV: 19.53606
+
+   Best Model (BestCV) -> Seed 49 Augment (18.03871)
+   Best Model (AvgCV)  -> Seed 49 Augment (19.38239)
+   ------------------------------------------------------------
+
+
+12. D169 Seed Analysis (UA)
+
+   BestCV: 17.16049 (F8, S49), AvgCV: 18.50818
+   BestCV: 17.40329 (F3, S97), AvgCV: 18.51660
+   BestCV: 17.82360 (F1, S53), AvgCV: 18.54451
+   BestCV: 17.44112 (F5, S5) , AvgCV: 18.50566 
+   BestCV: 17.57921 (F1, S33), AvgCV: 18.49070
+   BestCV: 17.26649 (F7, S65), AvgCV: 18.48982
+   BestCV: 18.07556 (F5, S62), AvgCV: 18.50482
+   BestCV: 17.49405 (F1, S51), AvgCV: 18.51208
+   BestCV: 17.59509 (F7, S38), AvgCV: 18.47640
+   BestCV: 17.41412 (F5, S61), AvgCV: 18.52315
+
+   Best Model (BestCV) -> Seed 49 (17.16049)
+   Best Model (AvgCV)  -> Seed 38 (18.47640)
+
 </pre>
 
 &nbsp;
@@ -80,102 +144,37 @@
 
 
 5. Densenet (Train) (10FCV) (Latest: V2)
-   {'Fold': 1,  'RMSE': 18.057433709941307}
-   {'Fold': 2,  'RMSE': 19.208499716765605}
-   {'Fold': 3,  'RMSE': 17.20356384231105}
-   {'Fold': 4,  'RMSE': 18.287770611865195}
-   {'Fold': 5,  'RMSE': 18.943310906647508}
-   {'Fold': 6,  'RMSE': 18.664445267902714}
-   {'Fold': 7,  'RMSE': 19.246420345783864}
-   {'Fold': 8,  'RMSE': 18.983535616655168}
-   {'Fold': 9,  'RMSE': 17.793830771697124}
-   {'Fold': 10, 'RMSE': 18.452296426408655}
-
    BestCV = 17.20356 (F3)
    AvgCV  = 18.48411
 
 
 6. Resnet (Train) (Latest: V4)
-   {'Fold': 1,  'RMSE': 18.396494132423992}
-   {'Fold': 2,  'RMSE': 19.129146592899257}
-   {'Fold': 3,  'RMSE': 17.19295742261089}
-   {'Fold': 4,  'RMSE': 18.602527727854827}
-   {'Fold': 5,  'RMSE': 18.887026230698226}
-   {'Fold': 6,  'RMSE': 18.832853773358515}
-   {'Fold': 7,  'RMSE': 19.132354871148124}
-   {'Fold': 8,  'RMSE': 18.756417600707913}
-   {'Fold': 9,  'RMSE': 18.00501797435925}
-   {'Fold': 10, 'RMSE': 18.75005079403802}
-
    BestCV = 17.19295 (F3)
    AvgCV  = 18.56848
 
 
 7. Mobilenet (Train) (Latest: V4)
-   {'Fold': 1,  'RMSE': 18.543632413171544}
-   {'Fold': 2,  'RMSE': 19.651486087414945}
-   {'Fold': 3,  'RMSE': 17.687681586713534}
-   {'Fold': 4,  'RMSE': 18.591171244812283}
-   {'Fold': 5,  'RMSE': 19.207519797314387}
-   {'Fold': 6,  'RMSE': 19.144033517847284}
-   {'Fold': 7,  'RMSE': 19.410189995808572}
-   {'Fold': 8,  'RMSE': 19.17186552553398}
-   {'Fold': 9,  'RMSE': 18.071784272751003}
-   {'Fold': 10, 'RMSE': 18.584009988630445}
-
    BestCV = 17.68768 (F3)
    AvgCV  = 18.80634
 
 
 8. VGG (Train) (Latest: V2)
-   {'Fold': 1,  'RMSE': 18.466018161395}
-   {'Fold': 2,  'RMSE': 19.359981893081862}
-   {'Fold': 3,  'RMSE': 17.58885891207003}
-   {'Fold': 4,  'RMSE': 18.622362825853763}
-   {'Fold': 5,  'RMSE': 19.0011963636624}
-   {'Fold': 6,  'RMSE': 19.231005250112577}
-   {'Fold': 7,  'RMSE': 19.53539234966364}
-   {'Fold': 8,  'RMSE': 19.205218313610448}
-   {'Fold': 9,  'RMSE': 18.216399230286488}
-   {'Fold': 10, 'RMSE': 18.814584033794514}
-
    BestCV = 17.58885 (F3)
    AvgCV  = 18.80410
 
 
 9. Dense + Meta (No Norm, Train) (Latest: V2)
-   {'Fold': 1,  'RMSE': 17.974186124819028}
-   {'Fold': 2,  'RMSE': 19.18652026337317}
-   {'Fold': 3,  'RMSE': 17.225570687794686}
-   {'Fold': 4,  'RMSE': 18.245223493824614}
-   {'Fold': 5,  'RMSE': 19.00355821277801}
-   {'Fold': 6,  'RMSE': 18.640010493520407}
-   {'Fold': 7,  'RMSE': 19.3356389608441}
-   {'Fold': 8,  'RMSE': 18.85120496768312}
-   {'Fold': 9,  'RMSE': 17.835846618964375}
-   {'Fold': 10, 'RMSE': 18.51920404423652}
-
    BestCV = 17.22557(F3) 
    AvgCV  = 18.48170
 
 
 10. Dense + Meta (Norm, Train) (Latest: V2)
-   {'Fold': 1, 'RMSE': 18.03942124469386}
-   {'Fold': 2, 'RMSE': 19.498367490288718}
-   {'Fold': 3, 'RMSE': 17.306601077811937}
-   {'Fold': 4, 'RMSE': 18.423025342397192}
-   {'Fold': 5, 'RMSE': 19.072061828421518}
-   {'Fold': 6, 'RMSE': 18.73027646546086}
-   {'Fold': 7, 'RMSE': 19.47167450216092}
-   {'Fold': 8, 'RMSE': 18.995501600951666}
-   {'Fold': 9, 'RMSE': 17.974863667610098}
-   {'Fold': 10, 'RMSE': 18.840179066757013}
-
-   BestCV = 17.30660(F3) 
-   AvgCV  = 18.63520
+    BestCV = 17.30660(F3) 
+    AvgCV  = 18.63520
 
 
-11. PetFinder - Gray384 - Dense Full (Colab)
+11.[Dropped] 
+   PetFinder - Gray384 - Dense Full (Colab)
    Batch Size = 20
    10 Minutes per Epoch
    Ran in Debug Mode (Epochs = 5, Folds = 3)
@@ -183,35 +182,28 @@
 
 
 12. D121 (Train) (Latest: V1)
-   {'Fold': 1,  'RMSE': 18.28643166524215}
-   {'Fold': 2,  'RMSE': 18.96949667617112}
-   {'Fold': 3,  'RMSE': 17.021474091225866}
-   {'Fold': 4,  'RMSE': 18.465335274055747}
-   {'Fold': 5,  'RMSE': 19.00991946902828}
-   {'Fold': 6,  'RMSE': 18.805115389089387}
-   {'Fold': 7,  'RMSE': 19.14466327505214}
-   {'Fold': 8,  'RMSE': 19.004975419704422}
-   {'Fold': 9,  'RMSE': 17.620628868496198}
-   {'Fold': 10, 'RMSE': 18.65298839774916}
-
-   BestCV = 17.02147(F3) 
-   AvgCV  = 18.49810
+    BestCV = 17.02147(F3) 
+    AvgCV  = 18.49810
 
 
 13. D161 (Train) (Latest: V1)
-   {'Fold': 1,  'RMSE': 18.350549685025072}
-   {'Fold': 2,  'RMSE': 18.93953857583627}
-   {'Fold': 3,  'RMSE': 17.13855288530736}
-   {'Fold': 4,  'RMSE': 18.15393199465612}
-   {'Fold': 5,  'RMSE': 18.71922351986345}
-   {'Fold': 6,  'RMSE': 18.809278270460414}
-   {'Fold': 7,  'RMSE': 19.07666527947936}
-   {'Fold': 8,  'RMSE': 18.942668299294592}
-   {'Fold': 9,  'RMSE': 17.633442072785837}
-   {'Fold': 10, 'RMSE': 18.507584292376055}
+    BestCV = 17.13855(F3) 
+    AvgCV  = 18.42714
 
-   BestCV = 17.13855(F3) 
-   AvgCV  = 18.42714
+
+14. D169 (Train) (Augment Seed 49) (Latest: V1)
+    BestCV = 17.56233(F3) 
+    AvgCV  = 19.07615
+
+
+15. D169 (Train) (Split Seed 49) (Latest: V2)
+    BestCV = 17.16049(F8)
+    AvgCV  = 18.50818
+
+
+16. D169 (Train) (Split Seed 38) (Latest: V3)
+    BestCV = 17.59508(F7)
+    AvgCV  = 18.47640
 
 </pre>
 
@@ -272,6 +264,24 @@
    LB = 18.83728
    Diff(BestCV - LB) = 1.69873
    Diff(AvgCV - LB)  = 0.41014
+
+
+9. D169 (Inference) (Augment Seed 49) (Latest: V1)
+   LB = _
+   Diff(BestCV - LB) = _
+   Diff(AvgCV - LB)  = _
+
+
+10. D169 (Inference) (Split Seed 49) (Latest: V2)
+    LB = _
+    Diff(BestCV - LB) = _
+    Diff(AvgCV - LB)  = _
+   
+
+10. D169 (Inference) (Split Seed 38) (Latest: V1)
+    LB = _
+    Diff(BestCV - LB) = _
+    Diff(AvgCV - LB)  = _
 
 </pre>
 
