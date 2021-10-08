@@ -28,6 +28,30 @@
 
 11. Pretrained Model Weights (All) (Latest: V1)
 
+12. All Features CV Analysis (Colab) 
+
+   Model: Resnet18   , BestCV: 17.56810 (F3), AvgCV: 18.88930
+   Model: Resnet34   , BestCV: 17.24156 (F3), AvgCV: 18.74975  
+   Model: Resnet50   , BestCV: 17.19296 (F3), AvgCV: 18.56848  
+   Model: Resnet101  , BestCV: 17.12310 (F3), AvgCV: 18.53340 
+   Model: Resnet152  , BestCV: 17.15243 (F3), AvgCV: 18.54092 
+   Model: Resnext50  , BestCV: 17.33056 (F3), AvgCV: 18.69707 
+   Model: Resnext101 , BestCV: 17.27402 (F3), AvgCV: 18.51755
+   Model: Wresnet50  , BestCV: 17.19350 (F3), AvgCV: 18.57485 
+   Model: Wresnet101 , BestCV: 17.10483 (F3), AvgCV: 18.52638
+   Model: Vgg11      , BestCV: 17.63321 (F3), AvgCV: 18.95783     
+   Model: Vgg13      , BestCV: 17.58427 (F3), AvgCV: 18.84889
+   Model: Vgg16      , BestCV: 17.58886 (F3), AvgCV: 18.80410
+   Model: Vgg19      , BestCV: 17.47513 (F3), AvgCV: 18.76739
+   Model: Densenet121, BestCV: 17.02147 (F3), AvgCV: 18.49810
+   Model: Densenet161, BestCV: 17.13855 (F3), AvgCV: 18.42714
+   Model: Densenet169, BestCV: 17.20356 (F3), AvgCV: 18.48411
+   Model: Densenet201, BestCV: 17.07005 (F3), AvgCV: 18.45969
+   Model: Mobilenet  , BestCV: 17.68768 (F3), AvgCV: 18.80634
+
+   Best Model (BestCV) -> Densenet121
+   Best Model (AvgCV)  -> Densenet161
+
 </pre>
 
 &nbsp;
