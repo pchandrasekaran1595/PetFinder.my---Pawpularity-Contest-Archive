@@ -7,14 +7,19 @@
     a. Dataset Creation (Latest: V1)
     b. Grayscale Dataset Creation (Latest: V2)
     c. Color Dataset Creation (Latest: V3)
+    d. Color Dataset Creation (384) (Latest: V1)
+
    
-2. Pretrained Features (Latest: V1)
+2. 
+   a. Pretrained Features (Latest: V1)
+   b. Pretrained Features (Augmented) (Latest: V2)
+   c. Pretrained Features (All) (Latest: V2)
 
 3. Pytorch Dataloader Analysis (Latest: V3)
 
 4. Meta Analysis (XGB) (Latest: V2)
 
-5. Meta Analysis (DL) (1 HL)  (Latest: V7 [Fail])
+5. Meta Analysis (DL) (1 HL) (Latest: V7 [Fail])
 
 6. Densenet Analysis (Latest: V5)
 
@@ -22,13 +27,11 @@
 
 8. Image Features (Fold and HL Analysis) (Latest: V4)
 
-9. Pretrained Features (All) (Latest: V2)
+9. 
+   a. Pretrained Model Weights (Latest: V1)
+   b. Pretrained Model Weights (All) (Latest: V1)
 
-10. Pretrained Model Weights (Latest: V1)
-
-11. Pretrained Model Weights (All) (Latest: V1)
-
-12. All Features CV Analysis (Colab) 
+10. All Features CV Analysis (Colab) 
 
    Model: Resnet18   , BestCV: 17.56810 (F3), AvgCV: 18.88930
    Model: Resnet34   , BestCV: 17.24156 (F3), AvgCV: 18.74975  
