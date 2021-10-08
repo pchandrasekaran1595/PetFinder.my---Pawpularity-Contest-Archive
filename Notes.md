@@ -178,6 +178,38 @@
    Ran in Debug Mode (Epochs = 5, Folds = 3)
    Perform a Full Run
 
+
+12. D121 (Train) (Latest: V1)
+   {'Fold': 1,  'RMSE': 18.28643166524215}
+   {'Fold': 2,  'RMSE': 18.96949667617112}
+   {'Fold': 3,  'RMSE': 17.021474091225866}
+   {'Fold': 4,  'RMSE': 18.465335274055747}
+   {'Fold': 5,  'RMSE': 19.00991946902828}
+   {'Fold': 6,  'RMSE': 18.805115389089387}
+   {'Fold': 7,  'RMSE': 19.14466327505214}
+   {'Fold': 8,  'RMSE': 19.004975419704422}
+   {'Fold': 9,  'RMSE': 17.620628868496198}
+   {'Fold': 10, 'RMSE': 18.65298839774916}
+
+   BestCV = 17.02147(F3) 
+   AvgCV  = 18.49810
+
+
+13. D161 (Train) (Latest: V1)
+   {'Fold': 1,  'RMSE': 18.350549685025072}
+   {'Fold': 2,  'RMSE': 18.93953857583627}
+   {'Fold': 3,  'RMSE': 17.13855288530736}
+   {'Fold': 4,  'RMSE': 18.15393199465612}
+   {'Fold': 5,  'RMSE': 18.71922351986345}
+   {'Fold': 6,  'RMSE': 18.809278270460414}
+   {'Fold': 7,  'RMSE': 19.07666527947936}
+   {'Fold': 8,  'RMSE': 18.942668299294592}
+   {'Fold': 9,  'RMSE': 17.633442072785837}
+   {'Fold': 10, 'RMSE': 18.507584292376055}
+
+   BestCV = 17.13855(F3) 
+   AvgCV  = 18.42714
+
 </pre>
 
 &nbsp;
@@ -226,6 +258,18 @@
    LB    = 18.47799
    Diff(AvgCV - LB)  = 1.05973
 
+
+8. D121 (Inference) (Latest: V1)
+   LB = 18.78301
+   Diff(BestCV - LB) = 1.76154
+   Diff(AvgCV - LB)  = 0.28491
+
+
+8. D161 (Inference) (Latest: V2)
+   LB = 18.83728
+   Diff(BestCV - LB) = 1.69873
+   Diff(AvgCV - LB)  = 0.41014
+
 </pre>
 
 ---
@@ -251,7 +295,7 @@
 
 &nbsp;
 
-Kaggle torch Version       - 1.7.1
+Kaggle torch Version       - 1.7.1  
 Kaggle torchvision Version - 0.8.1
 
 ---
