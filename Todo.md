@@ -20,5 +20,5 @@
 9. Create Augmented Features for different seeds for all the models.
 
 10. Seed Analysis on data splits, dataloader creation and model initialization.  
-    a. Analyze it on Pretrained Features (UA)  
+    a. [**Completed**] ~~Analyze it on Pretrained Features (UA)~~  
     b. Analyze it on Pretrained Features (A)
