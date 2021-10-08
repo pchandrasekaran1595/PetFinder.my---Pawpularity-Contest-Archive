@@ -2,7 +2,7 @@
 
 2. Work on reducing the CV score of densenet, since it has the least difference between CV and LB.
 
-3. Train a network on grayscale images. (Full + Few Layers)
+3. [**Dropped**] ~~Train a network on grayscale images. (Full + Few Layers)~~
 
 4. For color images:
     1. Train entire network
@@ -15,6 +15,10 @@
 
 7. [**Completed**] ~~Create Augmented Features for different seeds.~~
 
-8. Perform 10 Fold CV on augmented features.
+8. [**Completed**] ~~Perform 10 Fold CV on augmented features.~~
 
 9. Create Augmented Features for different seeds for all the models.
+
+10. Seed Analysis on data splits, dataloader creation and model initialization.  
+    a. Analyze it on Pretrained Features (UA)  
+    b. Analyze it on Pretrained Features (A)
