@@ -267,15 +267,15 @@
 
 
 9. D169 (Inference) (Augment Seed 49) (Latest: V1)
-   LB = _
-   Diff(BestCV - LB) = _
-   Diff(AvgCV - LB)  = _
+   LB = 18.70162
+   Diff(BestCV - LB) = 1.13939
+   Diff(AvgCV - LB)  = 0.37453
 
 
 10. D169 (Inference) (Split Seed 49) (Latest: V2)
-    LB = _
-    Diff(BestCV - LB) = _
-    Diff(AvgCV - LB)  = _
+    LB = 18.37173
+    Diff(BestCV - LB) = 1.21124
+    Diff(AvgCV - LB)  = 0.13645
    
 
 10. D169 (Inference) (Split Seed 38) (Latest: V1)
