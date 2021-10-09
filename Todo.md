@@ -1,6 +1,6 @@
 1. [**Completed in Colab**] ~~Write a kaggle notebook to get the features from all the pytorch models available. Perform 10 Fold CV on all the features.~~
 
-2. Work on reducing the CV score of densenet, since it has the least difference between CV and LB.
+2. Work on reducing the CV score of densenet (D169), since it has the least difference between CV and LB.
 
 3. [**Dropped**] ~~Train a network on grayscale images. (Full + Few Layers)~~
 
@@ -22,3 +22,7 @@
 10. Seed Analysis on data splits, dataloader creation and model initialization.  
     a. [**Completed**] ~~Analyze it on Pretrained Features (UA)~~  
     b. Analyze it on Pretrained Features (A)
+
+11. Train Feature Models using Augmented and Unaugmented Data.
+    1. (A, UA) concatenated along axis=1, add up MSELoss().
+    2. (A, UA) concatenated along axis=0, train normally.
