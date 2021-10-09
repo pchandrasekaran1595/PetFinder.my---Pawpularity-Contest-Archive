@@ -15,6 +15,7 @@
    b. Pretrained Features (Augmented) (Latest: V2)
    c. Pretrained Features (All) (Latest: V2)
    d. D169 (A, UA) Features (Latest: V1)
+   e. D169 (A, Multiple UA) Features (Latest: V1)
 
 3. Pytorch Dataloader Analysis (Latest: V3)
 
