@@ -14,6 +14,7 @@
    a. Pretrained Features (Latest: V1)
    b. Pretrained Features (Augmented) (Latest: V2)
    c. Pretrained Features (All) (Latest: V2)
+   d. D169 (A, UA) Features (Latest: V1)
 
 3. Pytorch Dataloader Analysis (Latest: V3)
 
@@ -118,6 +119,16 @@
 
    Best Model (BestCV) -> Seed 49 (17.16049)
    Best Model (AvgCV)  -> Seed 38 (18.47640)
+
+
+13. D169 (UA, A, 1) Analysis
+    BestCV = 17.01836(F8)
+    AvgCV  = 18.49328
+
+   
+14. D169 (UA, A, 2) Analysis
+    BestCV = 18.00252(F9)
+    AvgCV  = 18.62022
 
 </pre>
 
@@ -310,5 +321,11 @@
 
 Kaggle torch Version       - 1.7.1  
 Kaggle torchvision Version - 0.8.1
+
+---
+
+&nbsp;
+
+Appears to be a very slight difference when training on a CPU vs GPU.
 
 ---
