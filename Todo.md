@@ -26,4 +26,5 @@
 11. Train Feature Models using Augmented and Unaugmented Data.
     1. [**Completed**] ~~(A, UA) fed as seperate inputs, add up MSELoss().~~
     2. [**Completed**] ~~(A, UA) concatenated along axis=0, train normally.~~
-    3. Perform analysis as in `2.`, but stack multiple augmented features.
+    3. Perform analysis as in `1.`, but use mutiple unique augmented features.
+    4. Perform analysis as in `2.`, but stack multiple unique augmented features.
