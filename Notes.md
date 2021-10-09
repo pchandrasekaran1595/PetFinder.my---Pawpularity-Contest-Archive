@@ -329,4 +329,14 @@ Kaggle torchvision Version - 0.8.1
 
 Appears to be a very slight difference when training on a CPU vs GPU.
 
+&nbsp;
+
+---
+
+&nbsp;
+
+All Notebooks have been deleted from Kaggle
+
+&nbsp;
+
 ---
