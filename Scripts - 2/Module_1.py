@@ -3,6 +3,7 @@
 """
 
 import os
+import sys
 import pickle
 
 import utils as u
@@ -10,15 +11,23 @@ import utils as u
 #####################################################################################################
 
 def run_module_1():
-    PATH = "./Metrics"
+    PATH = "./Metrics - 2"
+
+    names = ["D169 (LR,WD) (32) (CC)", 
+             "D169 (LR,WD) (64) (CC)", 
+             "D169 (LR,WD) (128) (CC)", 
+             "D169 (LR,WD) (256) (CC)", 
+             "D169 (LR,WD) (512) (CC)"]
+
+    args = "--nc"
+    if args in sys.argv: 
+        names = ["D169 (LR,WD) (32) (NC)", 
+                 "D169 (LR,WD) (64) (NC)", 
+                 "D169 (LR,WD) (128) (NC)", 
+                 "D169 (LR,WD) (256) (NC)", 
+                 "D169 (LR,WD) (512) (NC)"]
     
-    names = ["DL169 (LR,WD) (32)", 
-             "DL169 (LR,WD) (64)", 
-             "DL169 (LR,WD) (128)", 
-             "DL169 (LR,WD) (256)", 
-             "DL169 (LR,WD) (512)"]
-    
-    batch_sizes = [name.split()[-1][1:-1] for name in names]
+    batch_sizes = [name.split()[-2][1:-1] for name in names]
 
     u.breaker()
     for i in range(len(names)):

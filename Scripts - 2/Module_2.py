@@ -12,7 +12,7 @@ import utils as u
 #####################################################################################################
 
 def run_module_2():
-    PATH = "./Metrics/All Features CV Analysis.pkl"
+    PATH = "./Metrics - 2/All Features CV Analysis (CC).pkl"
     fontsize = 5.5
 
     args = "--shortlist"
